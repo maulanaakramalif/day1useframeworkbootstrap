@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FILMINDO</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/scss.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar bg-body-tertiary justify-content-beetwen top">
+            <div class="d-flex gap-2">
+                <!-- btn side bar -->
+                <button class="btn fw-bold d-lg-none p-0 top" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    &#9776;
+                </button>
+                <!-- sidebar -->
+                <div class="offcanvas offcanvas-start" style="max-width: 250px;" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 gap-3">
+                            <li class="nav-item">
+                                <a class="btn sidebar fw-bold" href="#" role="button">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn sidebar fw-bold" href="#galery" role="button">Galery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn sidebar fw-bold" href="#contoh" role="button">About</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+                <h2 class="m-0 ms-lg-4">FILMINDO</h2>
+            </div>
+            <div class="d-none gap-3 d-lg-flex">
+                <a class="btn top fw-bold" href="#" role="button">Home</a>
+                <a class="btn top fw-bold" href="#galery" role="button">Galery</a>
+                <a class="btn top fw-bold" href="#" role="button">About</a>
+            </div>
+        </nav>
+
+    </header>
+
+    <main class="container my-4">
+        <section class="mb-4">
+            <h2>Selamat datang di website nonton film-film terbaru tahun 2026</h2>
+            <p>Daftar film-film terbaru tahun 2026</p>
+        </section>
+
+        <section>
+            <h2 class="mb-3">Sedang tayang</h2>
+
+            <!-- Galery -->
+            <div class="row g-3 align-items-start" id="galery">
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="card hover-lift h-100">
+                        <img src="aset/jumanji.jpg" class="card-img-top" alt="Film Jumanji">
+                        <div class="card-body">
+                            <h5 class="card-title">JUMANJI</h5>
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample1" aria-expanded="false"
+                                aria-controls="collapseExample">
+                                Synopsis
+                            </button>
+                            <p class="collapse" id="collapseExample1">Spencer merasa rindu dengan rasa percaya diri
+                                saat ia menjadi avatar Dr.
+                                Bravestone...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="card hover-lift h-100">
+                        <img src="aset/Peaky_Blinders.jpg" class="card-img-top" alt="Film Peaky Blinders">
+                        <div class="card-body">
+                            <h5 class="card-title">PEAKY BLINDERS</h5>
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample2" aria-expanded="false"
+                                aria-controls="collapseExample">
+                                Synopsis
+                            </button>
+                            <p class="collapse" id="collapseExample2">Ambisi Tommy untuk memperluas kekuasaan dan
+                                melegalkan bisnis keluarganya...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="card hover-lift h-100">
+                        <img src="aset/rampage.jpg" class="card-img-top" alt="Film Rampage">
+                        <div class="card-body">
+                            <h5 class="card-title">RAMPAGE</h5>
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample3" aria-expanded="false"
+                                aria-controls="collapseExample">
+                                Synopsis
+                            </button>
+                            <p class="collapse" id="collapseExample3">Ketiga hewan raksasa tersebut menuju ke kota
+                                Chicago dan mulai
+                                menghancurkan...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="card hover-lift h-100">
+                        <img src="aset/spiderman.jpg" class="card-img-top" alt="Film Spider-Man">
+                        <div class="card-body">
+                            <h5 class="card-title">SPIDER-MAN</h5>
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample4" aria-expanded="false"
+                                aria-controls="collapseExample">
+                                Synopsis
+                            </button>
+                            <p class="collapse" id="collapseExample4">Peter sekarang hidup sepenuhnya sendirian dan
+                                mendedikasikan seluruh
+                                waktunya...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="card hover-lift h-100">
+                        <img src="aset/thegodfather.jpg" class="card-img-top" alt="Film The Godfather">
+                        <div class="card-body">
+                            <h5 class="card-title">THE GODFATHER</h5>
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample5" aria-expanded="false"
+                                aria-controls="collapseExample">
+                                Synopsis
+                            </button>
+                            <p class="collapse" id="collapseExample5">Cerita bermula pada acara pernikahan Connie. Don
+                                Vito menolak tawaran kerja
+                                sama...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="card hover-lift h-100">
+                        <img src="aset/traintobusan.jpg" class="card-img-top" alt="Film Train to Busan">
+                        <div class="card-body">
+                            <h5 class="card-title">TRAIN TO BUSAN</h5>
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample6" aria-expanded="false"
+                                aria-controls="collapseExample">
+                                Synopsis
+                            </button>
+                            <p class="collapse" id="collapseExample6">Cerita bermula ketika sebuah truk pengangkut
+                                melewati kawasan yang
+                                mengalami...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="card hover-lift h-100">
+                        <img src="aset/13bom_jakarta.jpg" class="card-img-top" alt="Film 13 Bom di Jakarta">
+                        <div class="card-body">
+                            <h5 class="card-title">13 BOM DI JKT</h5>
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample7" aria-expanded="false"
+                                aria-controls="collapseExample">
+                                Synopsis
+                            </button>
+                            <p class="collapse" id="collapseExample7">Jakarta diguncang oleh teror sekelompok penjahat
+                                pimpinan Arok...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="card hover-lift h-100">
+                        <img src="aset/ali_topan.jpg" class="card-img-top" alt="Film Ali Topan">
+                        <div class="card-body">
+                            <h5 class="card-title">ALI TOPAN</h5>
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample8" aria-expanded="false"
+                                aria-controls="collapseExample">
+                                Synopsis
+                            </button>
+                            <p class="collapse" id="collapseExample8">Mengisahkan petualangan seorang pemuda pemberontak
+                                bernama Ali Topan...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="card hover-lift h-100">
+                        <img src="aset/ghost_writer.jpg" class="card-img-top" alt="Film Ghost Writer 2">
+                        <div class="card-body">
+                            <h5 class="card-title">GHOST WRITER 2</h5>
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample9" aria-expanded="false"
+                                aria-controls="collapseExample">
+                                Synopsis
+                            </button>
+                            <p class="collapse" id="collapseExample9">Cerita bermula setelah kesuksesan besar novel
+                                kedua Naya...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="card hover-lift h-100">
+                        <img src="aset/keadilan_theverdict.jpg" class="card-img-top" alt="Film Keadilan">
+                        <div class="card-body">
+                            <h5 class="card-title">KEADILAN</h5>
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample10" aria-expanded="false"
+                                aria-controls="collapseExample">
+                                Synopsis
+                            </button>
+                            <p class="collapse" id="collapseExample10">Raka adalah seorang petugas keamanan pengadilan
+                                yang jujur dan idealis...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="card hover-lift h-100">
+                        <img src="aset/zona_merah.jpg" class="card-img-top" alt="Film Zona Merah">
+                        <div class="card-body">
+                            <h5 class="card-title">ZONA MERAH</h5>
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample11" aria-expanded="false"
+                                aria-controls="collapseExample">
+                                Synopsis
+                            </button>
+                            <p class="collapse" id="collapseExample11">Serial web Indonesia bergenre laga dan cerita
+                                seru...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="card hover-lift h-100" id="contoh">
+                        <img src="aset/para_perasuk.jpg" class="card-img-top" alt="Film Para Perasuk">
+                        <div class="card-body">
+                            <h5 class="card-title">PARA PERASUK</h5>
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample12" aria-expanded="false"
+                                aria-controls="collapseExample">
+                                Synopsis
+                            </button>
+                            <p class="collapse" id="collapseExample12">Berpusat di Desa Latas, sebuah desa fiktif yang
+                                menjadikan tradisi...</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p class="m-0">&copy; 2026 Praktikum Pemrograman Berbasis Web. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Script Import Bootstrap -->
+    <script type="module">
+        import * as bootstrap from "./bootstrap.bundle.min.js";
+        window.bootstrap = bootstrap;
+    </script>
+</body>
+
+</html>

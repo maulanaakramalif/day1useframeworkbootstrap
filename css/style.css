@@ -1,0 +1,29 @@
+:root {
+    color-scheme: light;
+}
+
+/* card galery */
+.card-img-top {
+  height: 380px;
+  object-fit: cover;
+}
+.card {
+  height: 550px !important;
+}
+
+/* card hover */
+.hover-lift {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.hover-lift:hover,
+.hover-lift:active,
+.hover-lift:focus {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.18) !important;
+}
+
+/* siderbar button hover */
+
+.sidebar:hover{
+  color: #084298 !important;
+}

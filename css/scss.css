@@ -1,0 +1,17 @@
+.top {
+  background-color: #031633 !important;
+  color: #fff;
+}
+
+.sidebar {
+  color: #343a40;
+}
+
+.sidebar:hover {
+  background-color: #3d8bfd;
+}
+
+.btn:hover {
+  color: #343a40;
+  background-color: #3d8bfd;
+}

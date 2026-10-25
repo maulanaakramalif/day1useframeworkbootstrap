@@ -1,0 +1,19 @@
+@import "color-bootstrap";
+
+.top{
+    background-color: $blue-900 !important;
+    color: $white;
+}
+
+.sidebar{
+    color: $gray-800;
+}
+
+.sidebar:hover{
+    background-color: #{$blue-400};
+}
+
+.btn:hover{
+    color: $gray-800;
+    background-color: #{$blue-400}; 
+}
